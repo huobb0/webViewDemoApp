@@ -15,6 +15,7 @@
 		2D26DD1921D505EA00A4FBB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D26DD1821D505EA00A4FBB1 /* main.m */; };
 		2D26DD2321D505EA00A4FBB1 /* webViewDemoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D26DD2221D505EA00A4FBB1 /* webViewDemoAppTests.m */; };
 		2D26DD2E21D505EA00A4FBB1 /* webViewDemoAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D26DD2D21D505EA00A4FBB1 /* webViewDemoAppUITests.m */; };
+		2D26DD3C21D50EC000A4FBB1 /* html in Resources */ = {isa = PBXBuildFile; fileRef = 2D26DD3B21D50EC000A4FBB1 /* html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2D26DD2921D505EA00A4FBB1 /* webViewDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webViewDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D26DD2D21D505EA00A4FBB1 /* webViewDemoAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webViewDemoAppUITests.m; sourceTree = "<group>"; };
 		2D26DD2F21D505EA00A4FBB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D26DD3B21D50EC000A4FBB1 /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; path = html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				2D26DD0A21D505E900A4FBB1 /* AppDelegate.m */,
 				2D26DD0C21D505E900A4FBB1 /* ViewController.h */,
 				2D26DD0D21D505E900A4FBB1 /* ViewController.m */,
+				2D26DD3B21D50EC000A4FBB1 /* html */,
 				2D26DD0F21D505E900A4FBB1 /* Main.storyboard */,
 				2D26DD1221D505EA00A4FBB1 /* Assets.xcassets */,
 				2D26DD1421D505EA00A4FBB1 /* LaunchScreen.storyboard */,
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D26DD1621D505EA00A4FBB1 /* LaunchScreen.storyboard in Resources */,
+				2D26DD3C21D50EC000A4FBB1 /* html in Resources */,
 				2D26DD1321D505EA00A4FBB1 /* Assets.xcassets in Resources */,
 				2D26DD1121D505E900A4FBB1 /* Main.storyboard in Resources */,
 			);
@@ -438,6 +442,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4Y2PN6E5NM;
 				INFOPLIST_FILE = webViewDemoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +460,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4Y2PN6E5NM;
 				INFOPLIST_FILE = webViewDemoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
